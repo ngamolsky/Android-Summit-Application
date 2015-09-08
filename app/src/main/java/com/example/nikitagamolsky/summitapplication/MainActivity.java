@@ -131,6 +131,13 @@ public class MainActivity extends AppCompatActivity implements gotIntoADCS.Notic
     public void onDialogNegativeClick(DialogFragment dialog) {
         Toast nogood = Toast.makeText(this,"Well then... this is awkward", Toast.LENGTH_LONG);
         nogood.show();
+        final Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                
+            }
+        }, 3000);
     }
 
 
