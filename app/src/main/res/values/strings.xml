@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Summit Application</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="num_people">Please enter the number of people attending the Android Developer Career Summit</string>
+    <string name="second_question">What doеs Nikita hope to gain from the summit?</string>
+    <string name="find_out">Let\'s find out!</string>
+    <string name="dont_care">I don\'t care</string>
+</resources>

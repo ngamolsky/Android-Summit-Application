@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent" android:layout_width="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"  tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#606060"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Things Nikita gained from the summit:"
+        android:textStyle="bold"
+        android:id="@+id/textView"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="top" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:id="@+id/listview"> </ListView>
+
+
+</LinearLayout>
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#606060"
+        android:gravity="center"
+        android:text="See what happens if Nikita gets a job?"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentBottom="true"
+        android:visibility="invisible"
+        android:id="@+id/jobswitch"/>
+</RelativeLayout>
