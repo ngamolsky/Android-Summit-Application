@@ -135,7 +135,7 @@ public class MainActivity extends AppCompatActivity implements gotIntoADCS.Notic
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                
+                showNoticeDialog();
             }
         }, 3000);
     }
